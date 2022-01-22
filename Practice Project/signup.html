@@ -6,14 +6,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!------------------------------------------ Bootstrap CSS --------------------------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"> 
 
   </head>
   
 <body background="img_forest.jpg" style="background-size: cover; background-repeat: no-repeat; background-position: center;"">
-   <!-- Optional JavaScript -->
+   <!------------------------------------------ Optional JavaScript ---------------------------------------->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -29,9 +29,10 @@
       <div class="container" style="background-color: white; font-weight: bolder; font-size: large;" >
 
          <br><br>
-
+<!-------------------------------------FORM SECTION-------------------------------------------------->
         <form class="was-validated" action="dashboard.html" style="justify-content: center; padding-left: 30px; padding-right: 30px;">
             <div class="row">
+<!-------------------------------------INLINE NAME INPUT-------------------------------------------------->
                 <div class="col">
                   <input type="text" class="form-control is-valid" id="fnameValidation"
                   required placeholder="First name" style="font-size: medium;">
@@ -47,6 +48,7 @@
               </div>
               <br>
 
+<!-------------------------------------EMAIL INPUT-------------------------------------------------->
               <div class="form-group">
                 <label for="emailinput">Email address</label>
                 <input type="email" class="form-control is-valid" id="emailValidation"
@@ -54,6 +56,7 @@
               </div>
               <br>
 
+<!-------------------------------------PASSWORD INPUT-------------------------------------------------->
               <div class="form-group">
                 <label for="passwordInput">Password</label>
                 <input type="password" class="form-control is-valid" id="passValidation"
@@ -68,6 +71,7 @@
               </div>
               <br>
 
+<!-------------------------------------AGE INPUT-------------------------------------------------->
               <div class="form-group">
                 <label for="ageInput">Age</label>
                 <input type="number" class="form-control is-valid" id="ageValidation"
@@ -75,6 +79,7 @@
               </div>
               <br>
 
+<!-------------------------------------CITY INPUT DROPDOWN-------------------------------------------------->
               <div class="form-group">
                 <label for="citySelect">Select City</label>
                 <select class="form-control is-valid" id="cityValidation"
@@ -88,6 +93,7 @@
               </div>
               <br>
 
+<!-------------------------------------HOBBIES INPUT CHECKBOX INLINE-------------------------------------------------->
               <label for="hobbySelect">Hobbies</label> <br> 
               <div class="form-check form-check-inline" required style="font-size: medium; font-weight: normal;">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Reading">
@@ -107,7 +113,7 @@
               </div>
              <br><br>     
               
-             
+<!-------------------------------------GENDER INPUT RADIO BUTTON INLINE-------------------------------------------------->             
              <label for="genderSelect">Gender</label> <br>
              <!-- <div class="form-check form-check-inline is-valid" required style="font-size: medium; font-weight: normal;"> -->
               
@@ -123,18 +129,21 @@
               
             <br><br>     
 
+<!-------------------------------------TEXT AREA INPUT-------------------------------------------------->
             <div class="form-group">
               <label for="profileTextarea1">Profile</label>
               <textarea class="form-control is-valid" id="profileValidation" rows="15" required style="font-size: 15px;"></textarea>
             </div>
             <br>
 
+<!-------------------------------------UPLOAD FILE-------------------------------------------------->
             <div class="form-group">
               <label for="formControlFile1" style="margin-right: 25px;"></label>Upload Picture</label>
               <input type="file" class="form-control-file" id="formControlFile1" required style="padding-left: 20px; margin-right: 25px;">
           </div>
           <br><br>
 
+<!-------------------------------------SUBMIT BUTTON-------------------------------------------------->
           <div class="col-md-12 text-center">
           <button type="submit" style="width: 150px; height: 50px; border-radius: 12px; font-style: bold ; color: white; background-color: seagreen; padding-left: auto"; >Sign Up</button>
         </div>
